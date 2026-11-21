@@ -63,7 +63,7 @@ export function stageShot(name, state) {
   // Default: the cover — mid-hunt on level 1, three found, four left.
   state.level = 0;
   state.total = LEVELS[0].diffs;
-  state.found = new Set(['helmet', 'frame', 'pump']);
+  state.found = new Set(['helmet', 'frame', 'wrench']);
   state.foundCount = 3;
   state.score = 350;
   state.streak = 3;
