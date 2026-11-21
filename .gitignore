@@ -1,0 +1,6 @@
+out/
+selftest-a/
+selftest-b/
+transcripts.tar.gz
+*.jsonl
+node_modules/
